@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 25 25" version="1.1">
+<g id="surface1">
+<path style="fill:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(255,255,255);stroke-opacity:1;stroke-miterlimit:4;" d="M 126 192 L 56 192 C 51.6 192 48 195.6 48 200 L 48 312 C 48 316.4 51.6 320 56 320 L 125.68 320 C 129.36 320 132.96 321.2 135.76 323.52 L 227.28 398.4 C 229.68 400.24 232.88 400.48 235.6 399.12 C 238.32 397.76 240 395.04 240 392 L 240 120 C 240 116.96 238.32 114.24 235.6 112.88 C 232.88 111.52 229.68 111.76 227.28 113.6 L 135.76 188.48 C 133.04 190.8 129.6 192 126 192 Z M 126 192 " transform="matrix(0.0488281,0,0,0.0488281,0,0)"/>
+<path style="fill:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(255,255,255);stroke-opacity:1;stroke-miterlimit:4;" d="M 320 320 C 329.76 300.64 336 279.2 336 256 C 336 232.48 330 211.6 320 192 " transform="matrix(0.0488281,0,0,0.0488281,0,0)"/>
+<path style="fill:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(255,255,255);stroke-opacity:1;stroke-miterlimit:4;" d="M 368 368 C 387.52 334.08 400 303.92 400 256 C 400 208.08 388 178.24 368 144 " transform="matrix(0.0488281,0,0,0.0488281,0,0)"/>
+<path style="fill:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(255,255,255);stroke-opacity:1;stroke-miterlimit:4;" d="M 416 416 C 446 370 464 324.56 464 256 C 464 187.44 446 143.04 416 96 " transform="matrix(0.0488281,0,0,0.0488281,0,0)"/>
+</g>
+</svg>

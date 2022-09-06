@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>momentum</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="player" block-name="player">
+      <div class="player-wrapper">
+        <div class="track-name"></div>
+        <div class="timeline-container">
+          <div class="timeline">
+            <div class="progress"></div>
+          </div>
+          <div class="play-time">
+            <div class="current-time">0:00</div>
+            <div class="divider">/</div>
+            <div class="length"></div>
+          </div>
+        </div>
+        <div class="controls-wrapper">
+          <div class="player-controls">
+            <button class="play-prev player-icon"></button>
+            <button class="play player-icon"></button>
+            <button class="play-next player-icon"></button>
+          </div>
+          <div class="volume-container">
+            <div class="volume-slider">
+              <div class="volume-percentage">
+              </div>
+            </div>
+            <div class="volume-button"></div>
+          </div>
+        </div>
+      </div>
+      <ul class="play-list">
+      </ul>
+    </div>
+    <div class="weather" block-name="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="description-item weather-description"></span>
+        <span class="description-item temperature"></span>
+        <span class="description-item humidity"></span>
+        <span class="description-item wind-speed"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time" block-name="time"></time>
+    <date class="date" block-name="date"></date>
+    <div class="greeting-container" block-name="greeting">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="app-elements">
+      <div class="settings">
+        <span class="settings-icon material-icons">settings</span>
+        <div class="settings-container">
+          <span class="material-icons settings-close">close</span>
+          <span class="settings-header" setting-name="header">Settings</span>
+          <ul class="settings-list">
+            <li class="settings-item settings-language">
+              <span class="settings-title" setting-name="language">Language</span>
+              <div class="settings-switch-lang">
+                <label for="en">
+                  <span>en</span>
+                  <input type="radio" id="en" name="language">
+                </label>
+                <label for="ru">
+                  <span>ru</span>
+                  <input type="radio" id="ru" name="language">
+                </label>
+              </div>
+            </li>
+            <li class="settings-item settings-background">
+              <span class="settings-title" setting-name="background">Background</span>
+              <div class="settings-background">
+                <span class="background-btn" id="github">Github </span>
+                <span>|</span>
+                <span class="background-btn" id="unsplash"> Unsplash</span>
+                <span>|</span>
+                <span class="background-btn" id="flickr"> Flickr</span>
+              </div>
+            </li>
+            <li class="settings-item settings-player">
+              <span class="settings-title" setting-name="player">Player</span>
+              <div class="settings-switch switch-player" switch-name="player"></div>
+            </li>
+            <li class="settings-item settings-weather">
+              <span class="settings-title" setting-name="weather">Weather</span>
+              <div class="settings-switch switch-weather" switch-name="weather"></div>
+            </li>
+            <li class="settings-item settings-quotes">
+              <span class="settings-title" setting-name="quotes">Quotes</span>
+              <div class="settings-switch switch-quotes" switch-name="quotes"></div>
+            </li>
+            <li class="settings-item settings-time">
+              <span class="settings-title" setting-name="time">Time</span>
+              <div class="settings-switch switch-time" switch-name="time"></div>
+            </li>
+            <li class="settings-item settings-date">
+              <span class="settings-title" setting-name="date">Date</span>
+              <div class="settings-switch switch-date" switch-name="date"></div>
+            </li>
+            <li class="settings-item settings-greeting">
+              <span class="settings-title" setting-name="greeting">Greeting</span>
+              <div class="settings-switch switch-greeting" switch-name="greeting"></div>
+            </li>
+            <li class="settings-item settings-todo">
+              <span class="settings-title" setting-name="todo">ToDo</span>
+              <div class="settings-switch switch-todo" switch-name="todo"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="quote-wrapper" block-name="quotes">
+        <button class="change-quote"></button>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+      <div class="todo">
+        <span class="todo-icon" block-name="todo">ToDo</span>
+        <div class="todo-wrapper">
+          <span class="material-icons todo-close">close</span>
+          <div class="todo-input-container">
+            <img src="./assets/svg/text-icon.svg" alt="text" class="todo-input-icon">
+            <input type="text" class="todo-input">
+          </div>
+          <!-- <div class="todo-controls">
+            <ul class="todo-filters">
+              <li id="all" class="todo-filters-item active">All</li>
+              <li id="pending" class="todo-filters-item">Pending</li>
+              <li id="complited" class="todo-filters-item">Complited</li>
+            </ul>
+            <button class="todo-clear">Clear all</button>
+          </div> -->
+          <ul class="todo-list">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="info-elements">
+      <div class="logo">
+        <a href="https://rs.school/js-stage0/" class="logo__rssschol" target="_blank">
+          <img src="./assets/svg/logo-rsschool3.svg" alt="rsschool">
+        </a>
+        <a href="https://github.com/krevetka87" class="logo__github" target="_blank">
+          <img src="./assets/svg/github_icon.svg" alt="github">
+        </a>
+      </div>
+      <p class="copyright">All Rights Reserved &copy; Momentum</p>
+    </div>
+  </footer>
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
